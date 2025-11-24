@@ -67,9 +67,9 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
-              <Button variant="neon" size="sm">
+              {/* <Button variant="neon" size="sm">
                 Get Started
-              </Button>
+              </Button> */}
             </div>
 
             {/* Mobile Menu Button */}
@@ -110,9 +110,9 @@ const Navigation = () => {
               {item.label}
             </button>
           ))}
-          <Button variant="neon" size="lg" className="mt-4">
+          {/* <Button variant="neon" size="lg" className="mt-4">
             Get Started
-          </Button>
+          </Button> */}
         </div>
       </div>
     </>
