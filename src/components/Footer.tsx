@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img 
-                src="/devaxe-logo.svg" 
+                src="/image.png" 
                 alt="DevAxe Logo" 
                 className="w-10 h-10 rounded-lg"
               />

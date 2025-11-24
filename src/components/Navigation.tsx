@@ -49,9 +49,9 @@ const Navigation = () => {
               className="flex items-center gap-2 group"
             >
               <img 
-                src="/devaxe-logo.svg" 
+                src="/image.png" 
                 alt="DevAxe Logo" 
-                className="w-8 h-8 rounded-lg group-hover:scale-110 transition-transform duration-300"
+                className="w-10 h-10 rounded-lg group-hover:scale-110 transition-transform duration-300"
               />
               <span className="text-xl font-bold text-gradient-primary">
                 DevAxe
