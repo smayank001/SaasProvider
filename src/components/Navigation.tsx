@@ -48,11 +48,13 @@ const Navigation = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="flex items-center gap-2 group"
             >
-              <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <Rocket className="w-6 h-6 text-foreground" />
-              </div>
+              <img 
+                src="/devaxe-logo.svg" 
+                alt="DevAxe Logo" 
+                className="w-8 h-8 rounded-lg group-hover:scale-110 transition-transform duration-300"
+              />
               <span className="text-xl font-bold text-gradient-primary">
-                YourAgency
+                DevAxe
               </span>
             </button>
 

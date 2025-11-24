@@ -10,10 +10,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <Rocket className="w-6 h-6 text-foreground" />
-              </div>
-              <span className="text-xl font-bold text-gradient-primary">YourAgency</span>
+              <img 
+                src="/devaxe-logo.svg" 
+                alt="DevAxe Logo" 
+                className="w-10 h-10 rounded-lg"
+              />
+              <span className="text-xl font-bold text-gradient-primary">DevAxe</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Transforming visions into digital masterpieces. Your trusted partner for all digital solutions.
@@ -84,7 +86,7 @@ const Footer = () => {
 
         <div className="border-t border-border/50 pt-8 mt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>&copy; {currentYear} YourAgency. All rights reserved.</p>
+            <p>&copy; {currentYear} DevAxe. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
