@@ -53,7 +53,7 @@ const Footer = () => {
               <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
               <li><a href="#portfolio" className="hover:text-primary transition-colors">Portfolio</a></li>
               <li><a href="#testimonials" className="hover:text-primary transition-colors">Testimonials</a></li>
-              <li><a href="#pricing" className="hover:text-primary transition-colors">Pricing</a></li>
+              {/* <li><a href="#pricing" className="hover:text-primary transition-colors">Pricing</a></li> */}
               <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -71,12 +71,12 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
                 <a href="tel:+15555551234" className="hover:text-primary transition-colors">
-                  +1 (555) 555-1234
+                  +91 8851432459
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>123 Digital Avenue, Suite 456<br />Tech City, TC 12345</span>
+                <span>Vijay Nagar, Ghaziabad, Uttar Pradesh, India</span>
               </li>
             </ul>
           </div>

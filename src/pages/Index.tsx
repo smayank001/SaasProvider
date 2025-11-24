@@ -1,5 +1,8 @@
 import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
+import AnimatedHero from "@/components/AnimatedHero";
+import AISolutions from "@/components/AISolutions";
+import PlatformFeatures from "@/components/PlatformFeatures";
+import EnterpriseIntegrations from "@/components/EnterpriseIntegrations";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
@@ -8,20 +11,24 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import ChatBot from "@/components/ChatBot";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      <Hero />
+      <AnimatedHero />
+      <AISolutions />
+      <PlatformFeatures />
+      <EnterpriseIntegrations />
       <Services />
       <Portfolio />
       <Testimonials />
-      <Pricing />
       <About />
       <Contact />
       <Footer />
       <WhatsAppButton />
+      <ChatBot />
     </div>
   );
 };

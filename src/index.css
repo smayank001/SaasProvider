@@ -8,14 +8,14 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Clean, Premium Palette */
+    /* Clean, Professional White Theme */
     --background: 0 0% 100%;
     /* #FFFFFF (white) */
     --foreground: 0 0% 7%;
     /* #111111 (very dark charcoal) */
 
     --card: 210 20% 98%;
-    /* #F4F7FA (very light cool grey-white) */
+    /* #F4F7FA (very light grey-white) */
     --card-foreground: 0 0% 7%;
     /* #111111 (very dark charcoal) */
 
@@ -24,55 +24,55 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 7%;
     /* #111111 (very dark charcoal) */
 
-    /* Primary accent color - Vivid blue */
-    --primary: 220 100% 50%;
-    /* #0066FF (vivid blue) */
+    /* Primary accent color - Light blue */
+    --primary: 210 90% 60%;
+    /* Light blue */
     --primary-foreground: 0 0% 100%;
     /* white text on blue */
 
-    /* Secondary accent - Bright sky blue */
-    --secondary: 200 100% 50%;
-    /* #00A3FF (bright sky blue) */
+    /* Secondary accent - Sky blue */
+    --secondary: 200 80% 65%;
+    /* Sky blue */
     --secondary-foreground: 0 0% 100%;
     /* white text on blue */
 
-    /* Accent color - Sky blue for hover/CTA */
-    --accent: 200 100% 50%;
-    /* #00A3FF (bright sky blue) */
+    /* Accent color - Soft blue for hover/CTA */
+    --accent: 200 80% 65%;
+    /* Sky blue */
     --accent-foreground: 0 0% 100%;
     /* white text on blue */
 
-    --muted: 210 20% 90%;
-    /* Light cool grey */
+    --muted: 0 0% 90%;
+    /* Light gray */
     --muted-foreground: 0 0% 40%;
     /* Dark grey */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    /* Light cool grey border */
-    --input: 210 20% 98%;
-    /* Very light cool grey-white input */
-    --ring: 220 100% 50%;
-    /* #0066FF (vivid blue) */
+    --border: 0 0% 90%;
+    /* Light gray border */
+    --input: 0 0% 95%;
+    /* Very light gray input */
+    --ring: 210 90% 60%;
+    /* Light blue */
 
     --radius: 0.75rem;
 
     /* Premium blue gradient colors */
-    --neon-blue: 220 100% 50%;
-    --neon-purple: 260 80% 50%;
-    --neon-cyan: 200 100% 50%;
+    --neon-blue: 210 90% 60%;
+    --neon-purple: 260 70% 60%;
+    --neon-cyan: 200 80% 65%;
 
     /* Blue gradients for premium theme */
-    --gradient-primary: linear-gradient(135deg, hsl(220 100% 50%), hsl(200 100% 50%));
-    --gradient-secondary: linear-gradient(135deg, hsl(220 100% 50% / 0.9), hsl(200 100% 50% / 0.9));
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 20% 98%));
+    --gradient-primary: linear-gradient(135deg, hsl(210 90% 60%), hsl(200 80% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 90% 60% / 0.9), hsl(200 80% 65% / 0.9));
+    --gradient-hero: linear-gradient(180deg, #FFFFFF, #F4F7FA);
 
     /* Subtle blue shadows for premium theme */
-    --glow-primary: 0 0 10px hsl(220 100% 50% / 0.3);
-    --glow-secondary: 0 0 10px hsl(200 100% 50% / 0.3);
-    --glow-accent: 0 0 15px hsl(200 100% 50% / 0.4);
+    --glow-primary: 0 0 10px hsl(210 90% 60% / 0.3);
+    --glow-secondary: 0 0 10px hsl(200 80% 65% / 0.3);
+    --glow-accent: 0 0 15px hsl(200 80% 65% / 0.4);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -100,8 +100,8 @@ All colors MUST be HSL.
   }
 
   ::-webkit-scrollbar-track {
-    background: hsl(210 20% 98%);
-    /* Very light cool grey-white */
+    background: hsl(0 0% 95%);
+    /* Very light gray */
   }
 
   ::-webkit-scrollbar-thumb {
@@ -146,9 +146,9 @@ All colors MUST be HSL.
 
   /* Glassmorphism */
   .glass {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(244, 247, 250, 0.9);
+    border: 1px solid rgba(240, 240, 240, 0.8);
   }
 
   /* Hover scale animation */

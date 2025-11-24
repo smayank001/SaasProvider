@@ -76,7 +76,7 @@ const Contact = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 94100 20324"
                   className="bg-muted/50 border-border"
                 />
               </div>
@@ -113,10 +113,10 @@ const Contact = () => {
                     We'll respond within 24 hours
                   </p>
                   <a
-                    href="mailto:hello@youragency.com"
+                    href="mailto:mayanksaxena1262@gmail.com"
                     className="text-primary hover:underline"
                   >
-                    hello@youragency.com
+                    mayanksaxena1262@gmail.com
                   </a>
                 </div>
               </div>
@@ -132,12 +132,20 @@ const Contact = () => {
                   <p className="text-muted-foreground text-sm mb-2">
                     Mon-Fri from 9am to 6pm EST
                   </p>
-                  <a
-                    href="tel:+15555551234"
-                    className="text-secondary hover:underline"
-                  >
-                    +1 (555) 555-1234
-                  </a>
+                  <div className="space-y-1">
+                    <a
+                      href="tel:+918851432459"
+                      className="text-secondary hover:underline block"
+                    >
+                      +91 8851432459
+                    </a>
+                    <a
+                      href="tel:+919410020324"
+                      className="text-secondary hover:underline block"
+                    >
+                      +91 9410020324
+                    </a>
+                  </div>
                 </div>
               </div>
             </Card>
@@ -153,8 +161,7 @@ const Contact = () => {
                     Come say hello at our office
                   </p>
                   <p className="text-muted-foreground">
-                    123 Digital Avenue, Suite 456<br />
-                    Tech City, TC 12345
+                    India
                   </p>
                 </div>
               </div>
